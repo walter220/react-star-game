@@ -1,0 +1,40 @@
+.container {
+    margin-top: 20px;
+}
+
+.fa-star {
+    margin: 5px;
+    font-size: 24px;
+}
+
+.number {
+    display: inline-block;
+    margin: 5px;
+    padding: 2px;
+    width: 2em;
+    height: 2em;
+    text-align: center;
+    background-color: #eee;
+    border: 1px solid #aaa;
+    border-radius: 100%;
+    transition: background-color .3s ease-in-out;
+}
+
+.number:hover {
+    cursor: pointer;
+    background-color: #ccc;
+}
+
+.number.selected {
+    color: #999;
+    background-color: #ddd;
+    border-color: #ccc;
+    cursor: not-allowed;
+}
+
+.number.used {
+    background: #aaddaa;
+    color: #505050;
+    border-color: #bbb;
+    cursor: not-allowed;
+}
